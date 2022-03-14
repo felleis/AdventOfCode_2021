@@ -1,6 +1,6 @@
 
 // DAY 2
-// Part 1
+
 import fs from 'fs';
 
 let dayNr = 2;
@@ -10,6 +10,7 @@ let input = fs.readFileSync(filename).toString().split("\n");
 
 console.log("## DAY " + dayNr + " ##");
 
+// Part 1		Calculate the horizontal position and depth you would have after following the planned course.
 
 //let horizontalPos = 0;
 //let depth = 0;
@@ -31,10 +32,11 @@ console.log("## DAY " + dayNr + " ##");
 
 	
 // }; 
-// console.log(horizontalPos*depth)
+// console.log(horizontalPos*depth)		Puzzle solution = horizontal position * depth
 
 
-//Part 2
+//Part 2		Alternative interpretation of commands, added aim
+
 let aim = 0 
 let horizontalPos = 0;
 let depth = 0;
